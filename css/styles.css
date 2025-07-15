@@ -128,6 +128,10 @@ body {
     text-transform: capitalize;
 }
     
+.team-item {
+    background-color: #ffffff;
+}
+
 .team-name {
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
