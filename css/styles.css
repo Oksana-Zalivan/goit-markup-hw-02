@@ -23,11 +23,11 @@ body {
     color: #2e2f42;
 }
 
-.header-logo .logo-accent:hover {
+.header-logo .logo-text:hover {
     color: #404bbf;
 }
 
-.header-logo .logo-accent:active {
+.header-logo .logo-text:active {
     color: #404bbf;
 }
 
@@ -199,7 +199,7 @@ body {
 }
 
 .footer-logo-text {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .footer-logo-text:hover {
