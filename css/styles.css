@@ -6,28 +6,21 @@ body {
 
 .header-logo {
     background-color: #ffffff;
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 3%;
-    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
 }
 
 .header-logo .logo-accent {
-    color: #4d5ae5;
-}
-
-.header-logo .logo-text {
     color: #2e2f42;
 }
 
-.header-logo .logo-text:hover {
-    color: #404bbf;
-}
-
-.header-logo .logo-text:active {
+.header-logo .logo-accent:hover,
+.header-logo .logo-accent:active {
     color: #404bbf;
 }
 
@@ -37,7 +30,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -45,17 +38,26 @@ body {
     color: #404bbf;
 }
 
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
 .address-link{
-    color: #2e2f42;
+    color: #434455;
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
@@ -65,8 +67,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
 }
 
@@ -76,12 +78,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;        
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 1.5;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus{
     background-color: #404bbf;
+    cursor: pointer;
 }
 
 .benefits {
@@ -93,7 +97,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.2;
 }
 
@@ -102,7 +106,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;         
 }
 
@@ -115,22 +119,22 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
-    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
 }
     
-.team-photo {
-    width: 264;
-    height: 260;
+.team-list {
+    background-color: #ffffff;
 }
-    
+
 .team-name {
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.2;
 }
         
@@ -139,7 +143,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
         
@@ -152,14 +156,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
-    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
-}
-
-.portfolio-image {
-    width: 360;
-    height: 300;
+    text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -167,7 +167,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.2;
 }
 
@@ -176,7 +176,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -185,28 +185,21 @@ body {
 }
 
 .footer-logo {
-    color: #f4f4fd;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 3%;
-    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
 }
 
 .footer-logo-accent {
-    color: #4d5ae5;
-}
-
-.footer-logo-text {
     color: #f4f4fd;
 }
 
-.footer-logo-text:hover {
-    color: #404bbf;
-}
-
-.footer-logo-text:active {
+.footer-logo-accent:hover,
+.footer-logo-accent:active {
     color: #404bbf;
 }
 
