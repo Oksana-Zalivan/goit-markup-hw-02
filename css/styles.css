@@ -19,6 +19,18 @@ body {
     color: #4d5ae5;
 }
 
+.header-logo .logo-text {
+    color: #2e2f42;
+}
+
+.header-logo .logo-accent:hover {
+    color: #404bbf;
+}
+
+.header-logo .logo-accent:active {
+    color: #404bbf;
+}
+
 .nav-link {
     color: #2e2f42;
     background-color: #ffffff;
@@ -29,6 +41,10 @@ body {
     line-height: 1.5;
 }
 
+.nav-link:hover {
+    color: #404bbf;
+}
+
 .address-link{
     color: #2e2f42;
     background-color: #ffffff;
@@ -37,6 +53,10 @@ body {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 1.5;
+}
+
+.address-link:hover {
+    color: #404bbf;
 }
 
 .hero-title {
@@ -58,6 +78,10 @@ body {
     font-size: 16px;        
     letter-spacing: 4%;
     line-height: 1.5;
+}
+
+.hero-btn:hover {
+    background-color: #404bbf;
 }
 
 .benefits {
@@ -172,6 +196,18 @@ body {
 
 .footer-logo-accent {
     color: #4d5ae5;
+}
+
+.footer-logo-text {
+    color: #2e2f42;
+}
+
+.footer-logo-text:hover {
+    color: #404bbf;
+}
+
+.footer-logo-text:active {
+    color: #404bbf;
 }
 
 .footer-text {
