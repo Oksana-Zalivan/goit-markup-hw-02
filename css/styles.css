@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -22,7 +22,7 @@ body {
 .nav-link {
     color: #2e2f42;
     background-color: #ffffff;
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 2%;
@@ -32,7 +32,7 @@ body {
 .address-link{
     color: #2e2f42;
     background-color: #ffffff;
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 2%;
