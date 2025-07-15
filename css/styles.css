@@ -4,6 +4,56 @@ body {
     background-color: ffffff;
 }
 
+.header-logo {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 1.16667;
+    text-transform: uppercase;
+}
+
+.header-logo .logo-accent {
+    color: iris;
+}
+
+.header-logo .logo-main {
+    color: navy-blue;
+}
+
+.nav-link {
+    color: navy-blue;
+    background-color: white;
+    font-family: ;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02;
+    line-height: 1.5;
+}
+
+.hero-title {
+    color: white;
+    background-color: navy-blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+.hero-btn {
+    color: white;
+    background-color: iris;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;        
+    letter-spacing: 4%;
+    line-height: 24px;
+}
+
+
+
 
 
 
