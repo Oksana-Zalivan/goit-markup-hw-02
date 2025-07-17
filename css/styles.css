@@ -27,7 +27,6 @@ body {
 .nav-link {
     color: #2e2f42;
     background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -49,7 +48,6 @@ body {
 .address-link{
     color: #434455;
     background-color: #ffffff;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -67,7 +65,6 @@ body {
 
 .hero-title {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
@@ -97,7 +94,6 @@ body {
 
 .benefits-subtitle {
     color: #2e2f42;    
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -106,7 +102,6 @@ body {
 
 .benefits-text {
     color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -119,7 +114,6 @@ body {
 
 .team-title {
     color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -134,7 +128,6 @@ body {
 
 .team-name {
     color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -143,7 +136,6 @@ body {
         
 .team-position {
     color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -156,7 +148,6 @@ body {
 
 .portfolio-title {
     color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -167,7 +158,6 @@ body {
 
 .portfolio-name {
     color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -176,7 +166,6 @@ body {
 
 .portfolio-description {
     color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -208,9 +197,16 @@ body {
 
 .footer-text {
     color: #f4f4fd;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
